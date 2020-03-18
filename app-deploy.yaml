@@ -70,7 +70,7 @@ metadata:
   name: nodeespress
 spec:
   applicationImage: dev.local/nodeespress
-  createKnativeService: false
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
